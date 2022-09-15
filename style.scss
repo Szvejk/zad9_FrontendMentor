@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// MOBILKA
+
+body {
+    background-color: rgb(20, 20, 71);
+}
+.cards{
+   width: 350px;
+   height: 800px;
+   margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+  
+}
+
+.jeremy {
+    width: 350px;
+    height:100px;
+
+ border-radius: 15px;
+ 
+ .photo, .surname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}
+
+    .time {
+ background-color: rgb(112, 61, 61);
+    border-radius: 15px;
+display: flex;
+ flex-direction: column;
+ 
+      .name {
+        width: 350px;
+        height:100px;
+            background-color: rgb(139, 59, 177);
+            border-radius: 20px;
+            .photo{
+                height: 55px;
+            }
+       
+      }
+
+.box {
+    height: 50px;  
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+ }  
+  
+
+
+
