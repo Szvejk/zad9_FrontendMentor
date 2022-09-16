@@ -20,8 +20,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 20px;
 }
 
@@ -29,6 +33,7 @@ body {
   width: 350px;
   height: 100px;
   margin-bottom: 100px;
+  margin-top: 100px;
   border-radius: 15px;
 }
 .jeremy .photo,
