@@ -1,65 +1,128 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 // MOBILKA
 
 body {
-    background-color: rgb(20, 20, 71);
+	background-color: hsl(226, 43%, 10%);
+	font-family: 'Rubik', sans-serif;
+	color: rgb(179, 174, 174);
 }
-.cards{
-   width: 350px;
-   height: 800px;
-   margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-  
+.cards {
+	// width: 350px;
+	// height: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 20px;
 }
 
 .jeremy {
-    width: 350px;
-    height:100px;
+	width: 350px;
+	height: 100px;
+	margin-bottom: 100px;
+	border-radius: 15px;
 
- border-radius: 15px;
- 
- .photo, .surname {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+	.photo,
+	.surname {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
-    .time {
- background-color: rgb(112, 61, 61);
-    border-radius: 15px;
-display: flex;
- flex-direction: column;
- 
-      .name {
-        width: 350px;
-        height:100px;
-            background-color: rgb(139, 59, 177);
-            border-radius: 20px;
-            .photo{
-                height: 55px;
-            }
-       
-      }
+.time {
+	background-color: rgb(112, 61, 61);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
 
-.box {
-    height: 50px;  
-     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+	.name {
+		width: 350px;
+		height: 100px;
+		background-color: rgb(139, 59, 177);
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		color: white;
+		.num {
+			display: flex;
+			flex-direction: column;
+			.report {
+				margin-bottom: 5px;
+				font-weight: 100;
+			}
+			.robson {
+				font-size: 22px;
+			}
+		}
+		.photo {
+			height: 55px;
+			margin: 10px;
+			border-color: 2px solid antiquewhite;
+		}
+	}
+
+	.box {
+		height: 50px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		display: flex;
+		justify-content: space-around;
+		justify-items: center;
+		align-items: center;
+		margin-bottom: 30px;
+		.weight {
+			color: white;
+		}
+	}
 }
- }  
-  
+.work {
+	background-color: rgb(66, 44, 189);
+	width: 350px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	border-radius: 15px;
+	margin-top: 20px;
 
+	.first {
+		margin-top: 50px;
+		background-color: rgb(125, 74, 167);
+		border-radius: 15px;
+		width: 350px;
+		height: 200px;
+		display: flex;
 
+		.previous {
+			min-height: 30px;
+			display: flex;
+			justify-content: flex-start;
+			flex-direction: column;
+			margin: 20px;
+			color: white;
+			.number {
+				font-size: 25px;
+				font-weight: 200;
+                margin-top: 5px;
+			}
+			.job {
+				font-weight: 500;
+			}
+		}
 
+		.last-week {
+			display: flex;
+			height: 20px;
+		// align-items: flex-end;
+            margin-top: 40px;
+            margin-right:10px;
+
+		}
+	}
+}
